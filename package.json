@@ -1,0 +1,20 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "day1-part1": "node day1-part1/index.js",
+    "day1-part2": "node day1-part2/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hutchy2570/adventofcode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hutchy2570/adventofcode/issues"
+  },
+  "homepage": "https://github.com/hutchy2570/adventofcode#readme"
+}
