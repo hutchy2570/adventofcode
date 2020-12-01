@@ -1,9 +1,9 @@
 const fs = require('fs')
 
-const TOTAL = 2020;
+const TOTAL = 2020
 
 const run = () => {
-    const numbers = fs.readFileSync('day1-part1/input.txt').toString().split('\n').map((s) => parseInt(s));
+    const numbers = fs.readFileSync('day1-part1/input.txt').toString().split('\n').map((s) => parseInt(s)).sort().reverse()
 
     let a
     let b

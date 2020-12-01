@@ -1,13 +1,15 @@
 const fs = require('fs')
 
-const TOTAL = 2020;
+const TOTAL = 2020
 
 const run = () => {
-    const numbers = fs.readFileSync('day1-part2/input.txt').toString().split('\n').map((s) => parseInt(s));
+    const numbers = fs.readFileSync('day1-part2/input.txt').toString().split('\n').map((s) => parseInt(s)).sort().reverse()
 
     let a
     let b
     let c
+
+    let iterations = 0
 
     numbers.some((aCandidate, i) => numbers.some((bCandidate, j) => {
         if (i === j) {
@@ -15,6 +17,7 @@ const run = () => {
         }
         
         return numbers.some((cCandidate, k) => {
+            iterations += 1
             if (i == k || j === k) {
                 return false
             }
