@@ -9,7 +9,9 @@
     "day2-part1": "node day2-part1/index.js",
     "day2-part2": "node day2-part2/index.js",
     "day3-part1": "node day3-part1/index.js",
-    "day3-part2": "node day3-part2/index.js"
+    "day3-part2": "node day3-part2/index.js",
+    "day4-part1": "node day4-part1/index.js",
+    "day4-part2": "node day4-part2/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/hutchy2570/adventofcode/issues"
   },
-  "homepage": "https://github.com/hutchy2570/adventofcode#readme"
+  "homepage": "https://github.com/hutchy2570/adventofcode#readme",
+  "dependencies": {
+    "prettier": "^2.2.1"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "semi": false,
+    "singleQuote": true
+  }
 }
