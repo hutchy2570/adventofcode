@@ -11,7 +11,9 @@
     "day3-part1": "node day3-part1/index.js",
     "day3-part2": "node day3-part2/index.js",
     "day4-part1": "node day4-part1/index.js",
-    "day4-part2": "node day4-part2/index.js"
+    "day4-part2": "node day4-part2/index.js",
+    "day5-part1": "node day5-part1/index.js",
+    "day5-part2": "node day5-part2/index.js"
   },
   "repository": {
     "type": "git",
